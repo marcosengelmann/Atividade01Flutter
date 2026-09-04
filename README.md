@@ -1,28 +1,48 @@
-Descrição da aplicação
+## Descrição da aplicação
 
-A aplicação Minhas Tarefas é uma lista de tarefas simples desenvolvida em Flutter.
+A aplicação **Minhas Tarefas** permite que o usuário cadastre tarefas por meio de um campo de texto e de um botão. As tarefas adicionadas são exibidas dinamicamente na tela e podem ser removidas.
 
-O usuário pode digitar uma tarefa e adicioná-la à lista por meio de um botão. As tarefas adicionadas são apresentadas na tela e podem ser removidas posteriormente.
+## Principais funcionalidades
 
-Principais funcionalidades
-Interface desenvolvida com Flutter;
-AppBar com título da aplicação;
-Campo para inserção de tarefas;
-Botão para adicionar tarefas;
-Exibição dinâmica das tarefas;
-Remoção de tarefas;
-Atualização da interface utilizando setState().
-Tecnologias utilizadas
-Flutter
-Dart
-Git
-GitHub
-Como executar
-Instale e configure o Flutter.
-Clone este repositório.
-Abra a pasta do projeto no VS Code ou Android Studio.
-Execute:
+* Interface desenvolvida utilizando Flutter;
+* AppBar com título;
+* Campo para inserção de tarefas;
+* Botão para adicionar tarefas;
+* Exibição dinâmica das tarefas;
+* Remoção de tarefas;
+* Atualização da interface utilizando `setState()`.
+
+## Tecnologias utilizadas
+
+* Flutter
+* Dart
+* Git
+* GitHub
+
+## Como executar
+
+Clone o repositório:
+
+```bash
+git clone URL_DO_REPOSITORIO
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd atividade_flutter
+```
+
+Instale as dependências:
+
+```bash
 flutter pub get
+```
+
 Conecte um dispositivo Android ou inicie um emulador.
-Execute o projeto com:
+
+Execute o projeto:
+
+```bash
 flutter run
+```
